@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane blendMode="SCREEN" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txtmail" layoutX="100.0" layoutY="157.0" prefHeight="25.0" prefWidth="411.0" />
+      <TextField fx:id="txtpss" layoutX="100.0" layoutY="246.0" prefHeight="25.0" prefWidth="411.0" />
+      <Text layoutX="52.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-MAIL:" wrappingWidth="76.021484375" />
+      <Text layoutX="23.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD:" wrappingWidth="76.021484375" />
+      <Text layoutX="185.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USER LOGIN" wrappingWidth="325.13671875">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Text>
+      <Button fx:id="bttlog" layoutX="257.0" layoutY="324.0" mnemonicParsing="false" text="LOG IN" />
+   </children>
+</AnchorPane>
